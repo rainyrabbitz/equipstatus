@@ -1,0 +1,49 @@
+.center-button{
+  margin: 0 auto;
+}
+.center-wrapper{
+  text-align: center;
+}
+.center-wrapper * {
+  margin: 0 auto;
+}
+.margin-top{
+    margin: 0 auto;
+}
+.header-bg{
+    background-color: #ffcc33;
+}
+.ui-header {
+    background-color: #ffd700 !important;
+}
+.background-color{
+    background: #fde1e7 !important;
+}
+.ui-btn{
+    background-color: #fde1e7;
+}
+
+
+body,
+.ui-page {
+    min-height:100% !important;
+    height:auto !important;
+}
+
+.ui-content {
+    margin-bottom:100px; /* HEIGHT OF YOUR FOOTER */
+}
+
+.ui-footer {
+    position:absolute !important;
+    width:100%;
+    bottom:0;
+}
+
+
+
+
+//.ui-content {
+//    background : transparent url(public/bg001.jpg) 0 0 no-repeat fixed !important;
+//    background-size : cover;
+//}
