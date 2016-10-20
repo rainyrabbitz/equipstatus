@@ -4,9 +4,7 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
 	xmlns:gap = "http://phonegap.com/ns/1.0"
 	xmlns:android = "http://schemas.android.com/apk/res/android"
-	id        = ""
-	versionCode=""
-	version   = "0.2">
+	version   = "0.3">
     <name>MMM EQ Status</name>
     <description>Mea Moh Mine Equipment Status</description>
     <author href="" email="594748@egat.co.th">Nattakarn Promsorn</author>
@@ -16,7 +14,7 @@
         following tag to your config.xml; you will still have the INTERNET
         permission on your app, which PhoneGap requires.
     -->
-    <preference name="permissions"                value="none"/>
+    <preference name="permissions" value="none"/>
 
     <!-- Customize your app and platform with the preference element. -->
 
@@ -91,17 +89,20 @@
     -->
     
     <platform name="ios">
-		</platform>
-		<platform name="android">
-		<icon src="res/icon/android/icon-36-ldpi.png" qualifier="ldpi" />
-		<icon src="res/icon/android/icon-48-mdpi.png" qualifier="mdpi" />
-		<icon src="res/icon/android/icon-72-hdpi.png" qualifier="hdpi" />
-		<icon src="res/icon/android/icon-96-xhdpi.png" qualifier="xhdpi" />
-		<icon src="res/icon/android/icon-144.png" qualifier="xxhdpi" />
-		<icon src="res/icon/android/icon-192.png" qualifier="xxxhdpi" />
-		</platform>
-		<platform name="winphone">
-		</platform>
-		 <icon src="icon.png" />
-		<access origin="https://github.com/rainyrabbitz/equipstatus" subdomains="false" />
-		</widget>
+    </platform>
+		
+    <platform name="android">
+        <icon src="res/icon/android/icon-36-ldpi.png" qualifier="ldpi" />
+        <icon src="res/icon/android/icon-48-mdpi.png" qualifier="mdpi" />
+        <icon src="res/icon/android/icon-72-hdpi.png" qualifier="hdpi" />
+        <icon src="res/icon/android/icon-96-xhdpi.png" qualifier="xhdpi" />
+        <icon src="res/icon/android/icon-144-xxhdpi.png" qualifier="xxhdpi" />
+        <icon src="res/icon/android/icon-192-xxxhdpi.png" qualifier="xxxhdpi" />
+    </platform>
+    
+    <platform name="winphone">
+    </platform>
+    
+        <icon src="icon.png" />
+	<access origin="https://github.com/rainyrabbitz/equipstatus" subdomains="false" />
+</widget>
